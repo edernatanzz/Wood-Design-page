@@ -459,8 +459,8 @@ main{
 button.slick-prev{
     font-size: 0px;
     border: none;
-    width: 84px;
-    height: 84px;
+    width: 60px;
+    height: 60px;
     z-index: 9;
     
     background-image: url(../img/slider-principal/setas/bx-chevron-left.svg);
@@ -474,8 +474,8 @@ button.slick-prev{
 button.slick-next{
     font-size: 0px;
     border: none;
-    width: 84px;
-    height: 84px;
+    width: 60px;
+    height: 60px;
     z-index: 9;
    /* background-color: transparent;*/
     background-image: url(../img/slider-principal/setas/bx-chevron-right.svg);
