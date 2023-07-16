@@ -483,30 +483,23 @@ button.slick-next{
     top: 35%;
     right: 14% ;
 }
-.slider-principal{
-
-    width: 100%!important;
-
-
+.slider-principal {
+    width: 100% !important;
 }
-ul.slick-dots li  {
+
+ul.slick-dots li {
     display: inline-block;
-    font-size: 0px;
+    font-size: 0;
     border: 3px solid black;
-    border-radius:50% ;
-    -webkit-border-radius:50% ;
-    -moz-border-radius:50% ;
-    -ms-border-radius:50% ;
-    -o-border-radius:50% ;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
     width: 20px;
     height: 20px;
-    
-
-
 }
 
 ul.slick-dots li.slick-active {
     background-color: sienna;
-
-
 }
