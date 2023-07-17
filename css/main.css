@@ -365,10 +365,11 @@ body {
   padding: 16px;
 }
 
-main{
+main, .content {
     margin: 0 auto ;
     width: 980px;
     position: relative;
+    
 }
 .logo{
     float: left;
@@ -546,5 +547,26 @@ li.slick-active button{
 .slick-dots li {
   padding-left: 10px;
   display: inline-block;
+}
+.texto-destaque{
+  text-align: center;
+
+}
+
+
+
+.texto-destaque h1{
+  text-transform: uppercase;
+  font-size: 30px;
+  color: sienna;
+
+}
+.texto-destaque p{
+  margin: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 15px;
+  color:#8b8b8b;
+
 }
 
