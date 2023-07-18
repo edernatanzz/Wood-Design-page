@@ -506,7 +506,7 @@
         .texto-destaque p {
             margin: 2rem;
             margin-top: 1rem;
-            text-align: center;
+            text-align: justify;
             font-size: 15px;
             color: #8b8b8b;
         }
