@@ -18,9 +18,18 @@
    * Remove the margin in all browsers.
    */
         
-        body {
-            margin: 0;
-        }
+   body {
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Em vez de um valor fixo, utilize 100% para ocupar toda a largura disponível */
+  }
+  
+  /* Exemplo de uma media query para ajustar o layout em diferentes tamanhos de tela */
+  @media (max-width: 768px) {
+    body {
+      /* Algumas alterações no estilo para dispositivos com largura menor ou igual a 768 pixels */
+    }
+  }
         /**
    * Render the `main` element consistently in IE.
    */
@@ -512,7 +521,7 @@
         }
         
         .col-3 {
-            width: 29%;
+            width: 30%;
             float: left;
             position: relative;
             padding-left: 15px;
@@ -525,3 +534,43 @@
         h3{
             font-weight: normal!important;
         }
+
+        .bloco-imagem img {
+
+            margin: 0 auto;
+            width: 100%;
+            height: auto ;
+        }
+        .bloco-imagem{
+            height: 300px;
+            border: 1 solid #c5c5c5;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin-left: 10px;
+
+        }
+        .bloco-imagem texto{
+            background-color: #eeeeee;
+
+        }
+
+        
+        section {
+            margin: 1rem 2rem; /* margem de 1rem (vertical) e 2rem (horizontal) */
+            padding: 0 auto ; /* remova o padding, pois não é necessário para centralização */
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items:baseline;
+          }
+          
+          /* Estilos para o cabeçalho h3 */
+          h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem; /* Equivalente a 30px (30px / 16px = 1.875rem) */
+            /*margin: 1rem; /* Remova a margem esquerda */
+          }
+          p{
+            
+          }
+         
