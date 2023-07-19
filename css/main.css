@@ -524,8 +524,8 @@
             width: 30%;
             float: left;
             position: relative;
-            padding-left: 15px;
-            padding-right: 15px;
+            padding-left: 10px;
+            padding-right: 10px;
         }
         
         .bloco-texto {
@@ -565,12 +565,15 @@
           }
           
           /* Estilos para o cabeçalho h3 */
-          h3 {
+          h4 {
             font-family: 'Montserrat', sans-serif;
             font-size: 2rem; /* Equivalente a 30px (30px / 16px = 1.875rem) */
             /*margin: 1rem; /* Remova a margem esquerda */
           }
           p{
-            
+
           }
          
+
+
+          
